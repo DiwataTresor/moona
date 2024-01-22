@@ -122,7 +122,7 @@ const MainLayout = ({ children }) => {
               </Layout>
             </Layout>
             :
-            <div className="h-screen bg-gray-200 py-auto flex flex-col justify-between items-center pt-[100px]" style={{backgroundSize:"cover",backgroundImage:`url(https://images.unsplash.com/photo-1519750783826-e2420f4d687f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODZ8fHdhbGxwYXBlciUyMHRleHR1cmV8ZW58MHx8MHx8fDA%3D)`}}>
+            <div className="h-screen bg-gray-200 py-auto flex flex-col justify-between items-center pt-[100px] overflow-hidden" style={{backgroundSize:"cover",backgroundPosition:"top",backgroundImage:`url(https://images.unsplash.com/photo-1519750783826-e2420f4d687f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODZ8fHdhbGxwYXBlciUyMHRleHR1cmV8ZW58MHx8MHx8fDA%3D)`}}>
               <LayoutLogin />
             </div>
 
