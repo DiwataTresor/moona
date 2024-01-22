@@ -1,9 +1,9 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "Index-RDC",
+  name: "Moona",
   description:
-    "Annuaire des PMES en RDC",
+    "Plateforme intelligente de marketing et publicité",
   mainNav: [
     {
       title: "Home",
