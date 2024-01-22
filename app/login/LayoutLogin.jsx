@@ -14,7 +14,7 @@ const LayoutLogin=()=>{
                         <Image src="/logo_moona.png" width={200} height={90} className="m-auto" />
                     </div> */}
                     <div className="items-center">
-                        <div className="mb-4 text-xl">Se connecter</div>
+                        <div className="mb-4 text-xl">Se connecter </div>
                         <Form />
                     </div>
                     <h4 className="text-center text-gray-500 flex items-center justify-center">Vous n'avez pas de compte ? 
